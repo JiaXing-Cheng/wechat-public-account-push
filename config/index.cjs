@@ -7,7 +7,7 @@
  */
 const USER_CONFIG = {
   // 请将以下代码按照图示粘贴到对应位置
-   USE_PASSAGE: 'push-plus',
+  // USE_PASSAGE: 'push-plus',
 
   // 使用微信测试号：公众号APP_ID
   APP_ID: 'wx99275d2be1b3d83e',
@@ -21,11 +21,11 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '晓晓, 小朋友',
+      name: '晓晓小朋友, 早上好,我是AI小星星耶',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: '161c5e41cbdf40939dc3ff9e25316a13',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: '0001',
+      useTemplateId: 'cb3Db8qlnKy_hMmKQOyOtrp0Ar7QQgPZh-2ZLgwICiY',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '12-27',
       festivals: [
@@ -34,9 +34,9 @@ const USER_CONFIG = {
           type: '*生日', name: '宝贝', year: '1997', date: '09-09',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        {
-          type: '节日', name: '在一起的日子', year: '2023', date: '12-12',
-        },
+        // {
+        //   type: '节日', name: '在一起的日子', year: '2023', date: '12-12',
+        // },
         {
           type: '节日', name: '相识的日子', year: '2023', date: '11-26',
         },
@@ -44,9 +44,9 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2023-12-12' },
+        // { keyword: 'love_day', date: '2023-12-12' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2024-05-01' },
+        // { keyword: 'marry_day', date: '2024-05-01' },
       ],
     },
   ],
