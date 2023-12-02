@@ -21,7 +21,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '晓晓小朋友, 早上好',
+      name: '晓晓',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oTHbO6b4VExhySFqVer4nkJ59RwI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -35,7 +35,7 @@ const USER_CONFIG = {
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '节日', name: '在一起的日子', year: '2023', date: '12-12',
+          type: '节日', name: '距离过年的时间', year: '2024', date: '01-09',
         },
         {
           type: '节日', name: '相识的日子', year: '2023', date: '11-26',
