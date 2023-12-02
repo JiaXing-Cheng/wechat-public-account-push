@@ -34,9 +34,9 @@ const USER_CONFIG = {
           type: '*生日', name: '宝贝', year: '1997', date: '09-09',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
-        // {
-        //   type: '节日', name: '在一起的日子', year: '2023', date: '12-12',
-        // },
+        {
+          type: '节日', name: '在一起的日子', year: '2023', date: '12-12',
+        },
         {
           type: '节日', name: '相识的日子', year: '2023', date: '11-26',
         },
@@ -44,9 +44,9 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        // { keyword: 'love_day', date: '2023-12-12' },
+        { keyword: 'love_day', date: '2023-12-12' },
         // 结婚纪念日
-        // { keyword: 'marry_day', date: '2024-05-01' },
+        { keyword: 'marry_day', date: '2024-05-01' },
       ],
     },
   ],
