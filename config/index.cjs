@@ -21,7 +21,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '朋友',
+      name: '程**',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'oTHbO6b4VExhySFqVer4nkJ59RwI',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -48,6 +48,29 @@ const USER_CONFIG = {
         // 结婚纪念日
         // { keyword: 'marry_day', date: '2024-05-01' },
       ],
+    },
+     {
+      // 想要发送的人的名字
+      name: '郑婵群',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'oTHbO6YyuVICHjqE0GL1O39RvC1U',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: '6qUzEPRjps8Ugg7hRpMjrCCbUQCzSF_Gy-V2fyvpCgU',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '12-06',
+      festivals: [
+        // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
+        {
+          type: '*生日', name: '宝贝', year: '1995', date: '12-06',
+        },
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '节日', name: '距离过年的时间', year: '2024', date: '02-09',
+        },
+        {
+          type: '节日', name: '相识的日子', year: '2020', date: '11-26',
+        },
+      ],     
     },
     //  {
     //   // 想要发送的人的名字
